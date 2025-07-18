@@ -1,0 +1,32 @@
+[package]
+name = "web"
+description = "A starter template for web applications using Rust and Yew"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+readme = { workspace = true }
+homepage = { workspace = true }
+categories = { workspace = true }
+
+[dependencies]
+tokio = { workspace = true }
+axum = { workspace = true }
+axum-valid = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+config = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+anyhow = { workspace = true }
+sea-orm = { workspace = true }
+num_cpus = { workspace = true }
+thiserror = { workspace = true }
+tower-http = { workspace = true }
+xid = { workspace = true }
+bytesize = { workspace = true }
+validator = { workspace = true }
+regex = { workspace = true }
+idgenerator = { workspace = true }
+bcrypt = { workspace = true }
+
